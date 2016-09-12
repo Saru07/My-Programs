@@ -1,0 +1,108 @@
+{menulist 
+[
+
+{"Name": "File", 
+ "Options" : [
+				{"Option": "New Tab", "Shortcut": "Ctrl + T"},
+			    {"Option": "New Window", "Shortcut": "Ctrl + N"}, 
+			 	{"Option": "New Private Window", "Shortcut":"Ctrl + Shift + P"}, 
+			 	{"Option": "Open File", "Shortcut": "Ctrl + O"}, 
+			 	{"Option": "Close tab","Shotcut": "Ctrl + W"}, 
+			 	{"Option": "Close Window", "Shortcut": "Ctrl + Shift + W"}, 
+			 	{"Option": "Save Page as", "Shortcut": ""}, 
+			 	{"Option": "Email link", "Shortcut": ""},
+			 	{"Option": "Page Setup", "Shortcut": ""},
+			 	{"Option": "Print preview", "Shortcut": ""},
+			 	{"Option": "Print", "Shortcut": "Ctrl + P"},
+			 	{"Option": "Work Offline", "Shortcut": ""},
+			 	{"Option": "Exit", "Shortcut": ""}
+			],
+ "Shortcut": "Alt + F"
+},
+
+{
+	"Name": "Edit",
+	"Options": [
+					{"Option": "Undo", "Shortcut": "Ctrl + Z"},
+					{"Option": "Redo", "Shortcut": "Ctrl + Y"},
+					{"Option": "Cut", "Shortcut": "Ctrl + X"},
+					{"Option": "Copy", "Shortcut": "Ctrl + C"},
+					{"Option": "Paste", "Shortcut": "Ctrl + V"},
+					{"Option": "Delete", "Shortcut": "Del"},
+					{"Option": "Select All", "Shortcut": "Ctrl + A"},
+					{"Option": "Find", "Shortcut": "Ctrl + F"},
+					{"Option": "Find Again", "Shortcut": "Ctrl + G"},
+			   ],
+	"Shotcut": "Alt + E"
+},
+
+{
+	"Name": "View",
+	"Options": [
+					{"Option": "Tool Bar", "Shortcut": "Alt + V + T"},
+					{"Option": "Side Bar", "Shortcut": "Alt + V + E"},
+					{"Option": "Zoom", "Shortcut": "Alt + V + Z"},
+					{"Option": "Page Style", "Shortcut": "Alt + V + Y"},
+					{"Option": "Tex Encoding", "Shortcut": "Alt + V + C"},
+					{"Option": "Full Screen", "Shortcut": "F11"},
+					{"Option": "Fire Bug", "Shortcut": "F12"},
+			   ],
+	"Shortcut": "Alt + V"
+},
+
+{
+	"Name": "History",
+	"Options": [
+					{"Option": "Show All History", "Shortcut": "Ctrl + Shift + H"},
+					{"Option": "Clear Recent History", "Shortcut": "Ctrl + Shift + Del"},
+					{"Option": "Restore Closed tabs", "Shortcut": ""},
+					{"Option": "Restore Closed Window", "Shortcut": ""},
+					{"Option": "Restore Previous Session", "Shortcut": ""}
+			   ],
+	"Shortcut": "Alt + S"
+},
+
+{
+	"Name": "Bookmarks",
+	"Options": [
+					{"Option": "Show all bookmarks", "Shortcut": "Ctrl + Shift + B"},
+					{"Option": "View Pocket List", "Shortcut": ""},
+					{"Option": "Bookmark this page", "Shortcut": "Ctrl + D"}
+	           ],
+	"Shortcut": "Alt + B"
+},
+
+{
+	"Name": "Tools",
+	"Options": [
+					{"Option": "Downloads", "Shortcut": "Ctrl + J"},
+					{"Option": "Add-ons", "Shortcut": "Ctrl + Shift + A"},
+					{"Option": "Start a conversation", "Shortcut": ""},
+					{"Option": "Sign-in to sync", "Shortcut": ""},
+					{"Option": "Web developer", "Shortcut": ""},
+					{"Option": "Page info", "Shortcut": ""},
+					{"Option": "Options", "Shortcut": ""}
+	           ],
+	"Shortcut": "Alt + T"
+},
+
+{
+	"Name": "Help",
+	"Options": [
+					{"Option": "Firefox Help", "Shortcut": ""},
+					{"Option": "Firefox Tour", "Shortcut": ""},
+					{"Option": "Keyboard Shortcuts", "Shortcut": ""},
+					{"Option": "Firefox health report", "Shortcut": ""},
+					{"Option": "Keyboard shortcuts", "Shortcut": ""},
+					{"Option": "Troubleshooting information", "Shortcut": ""},
+					{"Option": "Submit feedback", "Shortcut": ""},
+					{"Option": "Restart with add-ons disabled", "Shortcut": ""},
+					{"Option": "Report deceptive site", "Shortcut": ""},
+					{"Option": "About firefox", "Shortcut": ""},
+	           ],
+	"Shortcut": "Alt + H"
+}
+
+
+	
+}
