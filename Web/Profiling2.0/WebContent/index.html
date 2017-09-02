@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/main.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+  	  	<!-- Include jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	<!-- Include Date Range Picker -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+	<script>
+	$(document).ready(function(){
+        var date_input=$('input[class="datepicker"]'); //our date input has the name "date"
+        var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+        date_input.datepicker({
+            format: 'MM dd, yyyy',
+            container: container,
+            todayHighlight: true,
+            autoclose: true,
+        })
+    })
+</script>
+  	
+  	
+	<title> Resume Generator </title>
+</head>
+<body>
+	<header>
+		<span id="title"> Resume Generator </span>
+		<a href="#" id = "logout"> Logout <img src="images/logout-32.png"></a>
+		<span id="user"></span>
+	</header>
+	<div id="main" class="container-fluid">
+		<div id="content-holder" align="center">
+			<h2> Generate your Resume </h2>
+			<a href="#" id="generate">Generate your resume now</a>
+		</div>		
+	</div>	
+	
+	<footer>
+		<a class="social"><img src="images/facebook-5-24.png" style="height:24px; width: 24px;"/></a>
+		<a class="social"><img src="images/twitter-5-24.png" style="height:24px; width: 24px;"/></a>
+		<a class="social"><img src="images/linkedin-5-24.png" style="height:24px; width: 24px"/></a>
+	</footer>
+</body>
+</html>
